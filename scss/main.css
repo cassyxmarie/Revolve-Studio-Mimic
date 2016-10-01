@@ -39,10 +39,23 @@ header {
     padding: 0; }
 
 #sectionOne {
-  background: black; }
+  margin-bottom: 10%; }
+  #sectionOne .pic-beach {
+    z-index: -3;
+    width: 24%; }
+  #sectionOne .gold-rectangle {
+    background: #CAB586;
+    height: 12%;
+    width: 76%;
+    position: absolute;
+    margin-left: 25%;
+    z-index: -2; }
   #sectionOne .pic-flowers {
-    width: 80%;
-    margin-left: 20%; }
+    position: absolute;
+    top: 83px;
+    width: 78%;
+    margin-left: 0%;
+    z-index: 0; }
 
 #sectionTwo .pic-jeans {
   width: 50%; }

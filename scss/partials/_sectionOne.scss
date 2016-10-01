@@ -1,12 +1,26 @@
 #sectionOne {
+  margin-bottom: 10%;
 
-  background: black;
+.pic-beach {
+  z-index: -3;
+  width: 24%;
+}
 
+.gold-rectangle {
+  background: $gold;
+  height: 12%;
+  width: 76%;
+  position: absolute;
+  margin-left: 25%;
+  z-index: -2;
 
-
+}
 .pic-flowers {
-  width: 80%;
-  margin-left: 20%;
+  position: absolute;
+  top: 83px;
+  width: 78%;
+  margin-left: 0%;
+  z-index: 0;
 }
 
 
