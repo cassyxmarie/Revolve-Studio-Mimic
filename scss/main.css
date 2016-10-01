@@ -1,10 +1,56 @@
-body {
-  background: blue; }
+@import "https://fonts.googleapis.com/css?family=Hind:300|Montserrat|Playfair+Display:700";
+header {
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 75px;
+  font-family: "Montserrat";
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header .search {
+    height: 15px; }
+  header .nav {
+    display: flex;
+    justify-content: space-around; }
+    header .nav a {
+      margin-left: 10px;
+      margin-right: 10px;
+      text-decoration: none;
+      color: black; }
+    header .nav .underline {
+      display: flex;
+      justify-content: center;
+      margin-left: 10px;
+      margin-top: 6px;
+      width: 80%;
+      height: 2px;
+      background: white; }
+    header .nav .link:hover .underline {
+      background: #CAB586; }
+  header .en {
+    border: 1px solid #CAB586;
+    text-align: center;
+    width: 27px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; }
 
-p {
-  color: white; }
+#sectionOne {
+  background: black; }
+  #sectionOne .pic-flowers {
+    width: 80%;
+    margin-left: 20%; }
 
-body {
-  background: blue; }
+#sectionTwo .pic-jeans {
+  width: 50%; }
+
+#sectionThree .pic-headshot {
+  width: 60%; }
+
+footer {
+  background: #CAB586; }
 
 /*# sourceMappingURL=main.css.map */

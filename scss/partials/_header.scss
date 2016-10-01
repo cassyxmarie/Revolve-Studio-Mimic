@@ -1,0 +1,54 @@
+header {
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 75px;
+  font-family: "Montserrat";
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .search {
+    height: 15px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+
+    }
+    .underline {
+      display: flex;
+      justify-content: center;
+      margin-left: 10px;
+      margin-top: 6px;
+      width: 80%;
+      height: 2px;
+      background: white;
+    }
+
+    .link:hover {
+      .underline {
+        background: $gold;
+      }
+    }
+  }
+
+  .en {
+    border: 1px solid $gold;
+    text-align: center;
+    width: 27px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+
+}

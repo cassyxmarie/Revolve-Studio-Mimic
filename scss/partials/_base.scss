@@ -1,5 +1,8 @@
 @import "variables-mixins";
+@import "header";
+@import "sectionOne";
+@import "sectionTwo";
+@import "sectionThree";
+@import "footer";
 
-p {
-  color: white;
-}
+@import 'https://fonts.googleapis.com/css?family=Hind:300|Montserrat|Playfair+Display:700';
