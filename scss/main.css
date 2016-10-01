@@ -56,6 +56,25 @@ header {
     width: 78%;
     margin-left: 0%;
     z-index: 0; }
+  #sectionOne .side-text {
+    position: relative;
+    margin-left: 100px;
+    top: -500px;
+    color: white;
+    z-index: 1;
+    line-height: 5px; }
+    #sectionOne .side-text .head {
+      font-family: "Montserrat";
+      font-size: 12px; }
+    #sectionOne .side-text .standard {
+      font-family: "Hind";
+      font-size: 12px; }
+    #sectionOne .side-text .italic {
+      font-family: "Hind";
+      font-size: 12px;
+      font-style: italic; }
+    #sectionOne .side-text .para-one, #sectionOne .side-text .para-two {
+      margin-bottom: 4%; }
 
 #sectionTwo .pic-jeans {
   width: 50%; }

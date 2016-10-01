@@ -23,5 +23,34 @@
   z-index: 0;
 }
 
+.side-text {
+  position: relative;
+  margin-left: 100px;
+  top: -500px;
+  color: white;
+  z-index: 1;
+  line-height: 5px;
+
+  .head {
+    @include head-text;
+  }
+
+  .standard {
+    font-family: "Hind";
+    font-size: 12px;
+  }
+
+  .italic {
+    font-family: "Hind";
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  .para-one, .para-two {
+    margin-bottom: 4%;
+  }
+}
+
+
 
 }
