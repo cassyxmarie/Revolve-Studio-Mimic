@@ -1,56 +1,19 @@
 #sectionOne {
   margin-bottom: 10%;
 
-.pic-beach {
-  z-index: -3;
-  width: 24%;
-}
-
-.gold-rectangle {
-  background: $gold;
-  height: 12%;
-  width: 76%;
-  position: absolute;
-  margin-left: 25%;
-  z-index: -2;
-
-}
-.pic-flowers {
-  position: absolute;
-  top: 83px;
-  width: 78%;
-  margin-left: 0%;
-  z-index: 0;
-}
-
-.side-text {
-  position: relative;
-  margin-left: 100px;
-  top: -500px;
-  color: white;
-  z-index: 1;
-  line-height: 5px;
-
-  .head {
-    @include head-text;
+  .pic-beach {
+    position: absolute;
+    top: 83px;
+    z-index: -1;
+    width: 24%;
   }
 
-  .standard {
-    font-family: "Hind";
-    font-size: 12px;
+  .pic-flowers {
+    position: absolute;
+    right: 8px;
+    top: 83px;
+    width: 78%;
+    z-index: 0;
+    box-shadow: 10px 10px 0px $gold;
   }
-
-  .italic {
-    font-family: "Hind";
-    font-size: 12px;
-    font-style: italic;
-  }
-
-  .para-one, .para-two {
-    margin-bottom: 4%;
-  }
-}
-
-
-
 }

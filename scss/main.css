@@ -1,13 +1,14 @@
 @import "https://fonts.googleapis.com/css?family=Hind:300|Montserrat|Playfair+Display:700";
 header {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 8%;
+  margin-right: 8%;
   height: 75px;
   font-family: "Montserrat";
   font-size: 12px;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  z-index: 1; }
   header .search {
     height: 15px; }
   header .nav {
@@ -18,16 +19,16 @@ header {
       margin-right: 10px;
       text-decoration: none;
       color: black; }
-    header .nav .underline {
-      display: flex;
-      justify-content: center;
-      margin-left: 10px;
-      margin-top: 6px;
-      width: 80%;
-      height: 2px;
-      background: white; }
-    header .nav .link:hover .underline {
-      background: #CAB586; }
+  header .underline {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 6px;
+    width: 80%;
+    height: 2px;
+    background: white; }
+  header .link:hover .underline {
+    background: #CAB586; }
   header .en {
     border: 1px solid #CAB586;
     text-align: center;
@@ -41,40 +42,17 @@ header {
 #sectionOne {
   margin-bottom: 10%; }
   #sectionOne .pic-beach {
-    z-index: -3;
-    width: 24%; }
-  #sectionOne .gold-rectangle {
-    background: #CAB586;
-    height: 12%;
-    width: 76%;
-    position: absolute;
-    margin-left: 25%;
-    z-index: -2; }
-  #sectionOne .pic-flowers {
     position: absolute;
     top: 83px;
+    z-index: -1;
+    width: 24%; }
+  #sectionOne .pic-flowers {
+    position: absolute;
+    right: 8px;
+    top: 83px;
     width: 78%;
-    margin-left: 0%;
-    z-index: 0; }
-  #sectionOne .side-text {
-    position: relative;
-    margin-left: 100px;
-    top: -500px;
-    color: white;
-    z-index: 1;
-    line-height: 5px; }
-    #sectionOne .side-text .head {
-      font-family: "Montserrat";
-      font-size: 12px; }
-    #sectionOne .side-text .standard {
-      font-family: "Hind";
-      font-size: 12px; }
-    #sectionOne .side-text .italic {
-      font-family: "Hind";
-      font-size: 12px;
-      font-style: italic; }
-    #sectionOne .side-text .para-one, #sectionOne .side-text .para-two {
-      margin-bottom: 4%; }
+    z-index: 0;
+    box-shadow: 10px 10px 0px #CAB586; }
 
 #sectionTwo .pic-jeans {
   width: 50%; }
@@ -82,7 +60,43 @@ header {
 #sectionThree .pic-headshot {
   width: 60%; }
 
+#sectionOneText {
+  border: 1px solid black;
+  margin-left: 8%;
+  margin-right: 8%; }
+  #sectionOneText .side-text {
+    border: 1px solid black;
+    width: 10%;
+    min-width: 110px;
+    padding-top: 5%;
+    position: relative;
+    color: white;
+    z-index: 1;
+    line-height: 5px; }
+    #sectionOneText .side-text .head {
+      font-family: "Montserrat";
+      font-size: 12px; }
+    #sectionOneText .side-text .standard {
+      font-family: "Hind";
+      font-size: 12px; }
+    #sectionOneText .side-text .italic {
+      font-family: "Hind";
+      font-size: 12px;
+      font-style: italic; }
+    #sectionOneText .side-text .sideways {
+      position: relative;
+      padding-left: 0px;
+      margin-left: 0px;
+      transform: rotate(-90deg); }
+    #sectionOneText .side-text .para-one, #sectionOneText .side-text .para-two {
+      margin-bottom: 4%; }
+
 footer {
   background: #CAB586; }
+
+body {
+  border: 1px solid black;
+  max-width: 1300px;
+  min-width: 365px; }
 
 /*# sourceMappingURL=main.css.map */

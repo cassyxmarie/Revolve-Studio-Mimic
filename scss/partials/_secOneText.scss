@@ -1,0 +1,44 @@
+#sectionOneText {
+
+  border: 1px solid black;
+  margin-left: 8%;
+  margin-right: 8%;
+
+  .side-text {
+    border: 1px solid black;
+    width: 10%;
+    min-width: 110px;
+    padding-top: 5%;
+    position: relative;
+    color: white;
+    z-index: 1;
+    line-height: 5px;
+
+    .head {
+      @include head-text;
+    }
+
+    .standard {
+      font-family: "Hind";
+      font-size: 12px;
+    }
+
+    .italic {
+      font-family: "Hind";
+      font-size: 12px;
+      font-style: italic;
+    }
+
+    .sideways {
+      position: relative;
+      padding-left: 0px;
+      margin-left: 0px;
+      transform: rotate(-90deg);
+    }
+
+    .para-one, .para-two {
+      margin-bottom: 4%;
+    }
+  }
+
+}

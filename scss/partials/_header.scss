@@ -1,12 +1,13 @@
 header {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 8%;
+  margin-right: 8%;
   height: 75px;
   font-family: "Montserrat";
   font-size: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 
   .search {
     height: 15px;
@@ -20,22 +21,22 @@ header {
     margin-right: 10px;
     text-decoration: none;
     color: black;
-
     }
+  }
+
+  .underline {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 6px;
+    width: 80%;
+    height: 2px;
+    background: white;
+  }
+
+  .link:hover {
     .underline {
-      display: flex;
-      justify-content: center;
-      margin-left: 10px;
-      margin-top: 6px;
-      width: 80%;
-      height: 2px;
-      background: white;
-    }
-
-    .link:hover {
-      .underline {
-        background: $gold;
-      }
+      background: $gold;
     }
   }
 
