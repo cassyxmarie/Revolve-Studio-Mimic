@@ -1,7 +1,26 @@
 #sectionTwo {
+  border: 1px solid black;
+  height: 500px;
+  padding: 0px;
 
+  .left-text {
+    width: 40%;
+    float: left;
+    border: 1px solid red;
+  }
+
+  .right-pic {
+    float: right;
+    height: 500px;
+    width: 55%;
+    border: 1px solid red;
+  }
   .pic-jeans {
-    width: 50%;
+    width: 100%;
+  }
+
+  a {
+    @include body-link;
   }
 
 

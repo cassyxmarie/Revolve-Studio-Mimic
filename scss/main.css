@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css?family=Hind:300|Montserrat|Playfair+Display:700";
+@import "https://fonts.googleapis.com/css?family=Hind:300|Montserrat|Playfair+Display:400,400i,700";
 header {
   margin-left: 8%;
   margin-right: 8%;
@@ -54,11 +54,60 @@ header {
     z-index: 0;
     box-shadow: 10px 10px 0px #CAB586; }
 
-#sectionTwo .pic-jeans {
-  width: 50%; }
+#sectionTwo {
+  border: 1px solid black;
+  height: 500px;
+  padding: 0px; }
+  #sectionTwo .left-text {
+    width: 40%;
+    float: left;
+    border: 1px solid red; }
+  #sectionTwo .right-pic {
+    float: right;
+    height: 500px;
+    width: 55%;
+    border: 1px solid red; }
+  #sectionTwo .pic-jeans {
+    width: 100%; }
+  #sectionTwo a {
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-size: 12px;
+    color: #252A2D; }
+    #sectionTwo a:hover {
+      color: #CAB586; }
 
-#sectionThree .pic-headshot {
-  width: 60%; }
+#sectionThree {
+  border: 1px solid pink;
+  height: 500px; }
+  #sectionThree .left-pic {
+    float: left;
+    width: 40%;
+    border: 1px solid orange; }
+    #sectionThree .left-pic .grey-box {
+      width: 10%;
+      height: 100%;
+      float: left;
+      background: #252A2D;
+      color: white; }
+      #sectionThree .left-pic .grey-box .sideways {
+        position: relative;
+        padding-left: 0px;
+        margin-left: 0px;
+        transform: rotate(-90deg); }
+    #sectionThree .left-pic .pic-headshot {
+      width: 90%; }
+  #sectionThree .right-text {
+    border: 1px solid pink;
+    width: 55%;
+    float: right; }
+  #sectionThree a {
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-size: 12px;
+    color: #252A2D; }
+    #sectionThree a:hover {
+      color: #CAB586; }
 
 #sectionOneText {
   border: 1px solid black;
@@ -91,6 +140,20 @@ header {
     #sectionOneText .side-text .para-one, #sectionOneText .side-text .para-two {
       margin-bottom: 4%; }
 
+#mid-text {
+  text-align: center;
+  margin-top: 35%;
+  height: 200px;
+  border: solid 1px red; }
+  #mid-text .gold-caps {
+    font-family: "Montserrat";
+    font-size: 11px;
+    color: #CAB586; }
+  #mid-text .playfair-header {
+    font-family: "Playfair Display";
+    font-style: 400;
+    font-size: 30px; }
+
 footer {
   background: #CAB586; }
 
@@ -98,5 +161,9 @@ body {
   border: 1px solid black;
   max-width: 1300px;
   min-width: 365px; }
+
+.body-text {
+  font-family: "Hind";
+  font-size: 14px; }
 
 /*# sourceMappingURL=main.css.map */

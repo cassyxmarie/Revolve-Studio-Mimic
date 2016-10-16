@@ -1,7 +1,37 @@
 #sectionThree {
+  border: 1px solid pink;
+  height: 500px;
+  .left-pic {
+  float: left;
+  width: 40%;
+  border: 1px solid orange;
+  .grey-box {
+    width: 10%;
+    height: 100%;
+    float:left;
+    background: $grey;
+    color: white;
 
+    .sideways {
+      position: relative;
+      padding-left: 0px;
+      margin-left: 0px;
+      transform: rotate(-90deg);
+    }
+  }
   .pic-headshot {
-    width: 60%;
+    width: 90%;
+  }
+}
+
+  .right-text {
+    border: 1px solid pink;
+    width: 55%;
+    float: right;
+  }
+
+  a {
+    @include body-link;
   }
 
 }
