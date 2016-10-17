@@ -9,8 +9,9 @@ body {
 
 .body-text {
   font-family: "Hind";
-  font-size: 14px;
+  font-size: 12px;
   color: $grey;
+  text-align: justify;
 }
 
 .underline2 {
@@ -20,6 +21,11 @@ body {
 .playfair-italic {
   font-family: "Playfair";
   font-style: italic;
-  font-size: 18px;
+  font-size: 15px;
   color: $grey;
+  text-align: justify;
+}
+
+.sun {
+  width: 35px;
 }

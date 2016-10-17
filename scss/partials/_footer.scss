@@ -1,13 +1,13 @@
 .footer-header {
   background: $gold;
-  height: 200px;
+  height: 225px;
   width: 100%;
   border: solid white 1px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Playfair Display";
-  font-size: 30px;
+  font-size: 24px;
   font-style: 400;
   color: white;
   letter-spacing: 1px;
@@ -23,12 +23,12 @@ display: flex;
     justify-content: space-between;
     align-self: flex-end;
     align-items: center;
-    height: 100px;
+    height: 110px;
   }
 
   .ftr-nav {
     font-family: "Montserrat";
-    font-size: 12px;
+    font-size: 10px;
     display: flex;
     justify-content: space-around;
     margin-left: 8%;

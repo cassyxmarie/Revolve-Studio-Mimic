@@ -4,7 +4,7 @@
   padding: 0px;
 
   .left-text {
-    width: 40%;
+    width: 270px;
     float: left;
     border: 1px solid red;
   }
@@ -13,10 +13,19 @@
     float: right;
     height: 500px;
     width: 55%;
+    max-width: 530px;
     border: 1px solid red;
   }
   .pic-jeans {
     width: 100%;
+  }
+
+  .capital {
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: bold;
+    float: left;
+    margin-right: 5px;
   }
 
   a {

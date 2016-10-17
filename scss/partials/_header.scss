@@ -3,14 +3,14 @@ header {
   margin-right: 8%;
   height: 75px;
   font-family: "Montserrat";
-  font-size: 12px;
+  font-size: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1;
 
   .search {
-    height: 15px;
+    height: 12px;
   }
 
   .nav {
@@ -29,7 +29,7 @@ header {
     justify-content: center;
     margin-left: 10px;
     margin-top: 6px;
-    width: 80%;
+    width: 75%;
     height: 2px;
     background: white;
   }
@@ -43,8 +43,8 @@ header {
   .en {
     border: 1px solid $gold;
     text-align: center;
-    width: 27px;
-    height: 20px;
+    width: 22px;
+    height: 15px;
     display: flex;
     align-items: center;
     justify-content: center;

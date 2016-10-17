@@ -1,13 +1,13 @@
 #sectionThree {
   border: 1px solid pink;
-  height: 425px;
+  height: 475px;
   .left-pic {
   float: left;
   width: 55%;
   border: 1px solid orange;
   .grey-box {
-    width: 10%;
-    height: 100%;
+    width: 90px;
+    height: 475px;
     float:left;
     background: $grey;
     color: white;
@@ -21,19 +21,20 @@
   }
   .pic-headshot {
     width: 90%;
+    max-width: 440px;
   }
 }
 
   .right-text {
     border: 1px solid pink;
-    width: 40%;
+    width: 262px;
     float: right;
   }
 
   .hind-header {
     color: $grey;
     font-family: "Hind";
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     letter-spacing: 1px; }
 
@@ -41,6 +42,18 @@
     @include body-link;
   }
 
-
+  .container  {
+    width: 220px;
+    border: 1px solid black;
+    p {
+      line-height: 15px;
+      margin-bottom: 5px;
+    }
+    .underline {
+      height: 2px;
+      background: $gold;
+      margin: 0px;
+    }
+}
 
 }
