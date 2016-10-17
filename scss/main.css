@@ -40,34 +40,41 @@ header {
     padding: 0; }
 
 #sectionOne {
-  margin-bottom: 10%; }
+  float: left;
+  z-index: -1;
+  position: absolute;
+  top: 80px; }
   #sectionOne .pic-beach {
-    position: absolute;
-    top: 83px;
+    float: left;
+    width: 200px; }
+  #sectionOne .pic-container {
+    position: relative;
     z-index: -1;
-    width: 24%; }
+    top: 0px;
+    height: 500px;
+    width: 1080px; }
   #sectionOne .pic-flowers {
-    position: absolute;
-    right: 8px;
-    top: 83px;
-    width: 78%;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    float: right;
+    width: 85%;
+    max-width: 880px;
     z-index: 0;
-    box-shadow: 10px 10px 0px #CAB586; }
+    box-shadow: 15px 8px 0px #CAB586; }
 
 #sectionTwo {
-  border: 1px solid black;
-  height: 500px;
-  padding: 0px; }
+  height: 385px;
+  padding-left: 8%;
+  padding-right: 8%; }
   #sectionTwo .left-text {
     width: 270px;
-    float: left;
-    border: 1px solid red; }
+    float: left; }
   #sectionTwo .right-pic {
     float: right;
-    height: 500px;
+    height: 385px;
     width: 55%;
-    max-width: 530px;
-    border: 1px solid red; }
+    max-width: 530px; }
   #sectionTwo .pic-jeans {
     width: 100%; }
   #sectionTwo .capital {
@@ -85,14 +92,13 @@ header {
       color: #CAB586; }
 
 #sectionThree {
-  border: 1px solid pink;
+  padding-right: 8%;
   height: 475px; }
   #sectionThree .left-pic {
     float: left;
-    width: 55%;
-    border: 1px solid orange; }
+    width: 55%; }
     #sectionThree .left-pic .grey-box {
-      width: 90px;
+      width: 16%;
       height: 475px;
       float: left;
       background: #252A2D;
@@ -106,7 +112,6 @@ header {
       width: 90%;
       max-width: 440px; }
   #sectionThree .right-text {
-    border: 1px solid pink;
     width: 262px;
     float: right; }
   #sectionThree .hind-header {
@@ -123,8 +128,7 @@ header {
     #sectionThree a:hover {
       color: #CAB586; }
   #sectionThree .container {
-    width: 220px;
-    border: 1px solid black; }
+    width: 220px; }
     #sectionThree .container p {
       line-height: 15px;
       margin-bottom: 5px; }
@@ -134,17 +138,17 @@ header {
       margin: 0px; }
 
 #sectionOneText {
-  border: 1px solid black;
   margin-left: 8%;
-  margin-right: 8%; }
+  margin-right: 8%;
+  position: relative;
+  z-index: 1; }
   #sectionOneText .side-text {
-    border: 1px solid black;
+    float: left;
     width: 10%;
     min-width: 110px;
     padding-top: 5%;
     position: relative;
     color: white;
-    z-index: 1;
     line-height: 5px; }
     #sectionOneText .side-text .head {
       font-family: "Montserrat";
@@ -166,14 +170,14 @@ header {
 
 #mid-text {
   text-align: center;
-  margin-top: 35%;
+  margin-top: 54%;
   height: 200px;
-  border: solid 1px red;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 36px;
+  padding-bottom: 36px; }
   #mid-text .container {
-    border: solid 1px red;
     width: 400px; }
   #mid-text .gold-caps {
     margin: 0px;
@@ -193,7 +197,6 @@ header {
   background: #CAB586;
   height: 225px;
   width: 100%;
-  border: solid white 1px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -208,7 +211,6 @@ footer {
   display: flex; }
   footer .footer-nav {
     width: 100%;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-self: flex-end;
@@ -236,8 +238,7 @@ footer {
       background: white; }
 
 body {
-  border: 1px solid black;
-  max-width: 1300px;
+  max-width: 1080px;
   min-width: 365px; }
 
 .body-text {

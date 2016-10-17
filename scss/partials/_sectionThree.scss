@@ -1,12 +1,13 @@
 #sectionThree {
-  border: 1px solid pink;
+  padding-right: 8%;
+  // border: 1px solid pink;
   height: 475px;
   .left-pic {
   float: left;
   width: 55%;
-  border: 1px solid orange;
+  // border: 1px solid orange;
   .grey-box {
-    width: 90px;
+    width: 16%;
     height: 475px;
     float:left;
     background: $grey;
@@ -26,7 +27,7 @@
 }
 
   .right-text {
-    border: 1px solid pink;
+    // border: 1px solid pink;
     width: 262px;
     float: right;
   }
@@ -44,7 +45,7 @@
 
   .container  {
     width: 220px;
-    border: 1px solid black;
+    // border: 1px solid black;
     p {
       line-height: 15px;
       margin-bottom: 5px;

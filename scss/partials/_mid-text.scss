@@ -1,14 +1,16 @@
 #mid-text {
   text-align: center;
-  margin-top: 35%;
+  margin-top: 54%;
   height: 200px;
-  border: solid 1px red;
+  // border: solid 1px red;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 36px;
+  padding-bottom: 36px;
 
   .container {
-    border: solid 1px red;
+    // border: solid 1px red;
     width: 400px;
   }
 

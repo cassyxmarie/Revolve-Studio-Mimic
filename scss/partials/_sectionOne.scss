@@ -1,20 +1,33 @@
 #sectionOne {
-  margin-bottom: 10%;
+  // margin-bottom: 10%;
+  float: left;
+  z-index: -1;
+  position: absolute;
+  top: 80px;
 
   .pic-beach {
-    position: absolute;
-    top: 83px;
-    z-index: -1;
-    width: 24%;
+    float: left;
+    // z-index: -1;
+    width: 200px;
   }
 
+  .pic-container {
+    position: relative;
+    z-index: -1;
+    top: 0px;
+    // border: 1px solid pink;
+    height: 500px;
+    width: 1080px;
+  }
   .pic-flowers {
-    position: absolute;
-    right: 8px;
-    top: 83px;
-    width: 78%;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    float: right;
+    width: 85%;
+    max-width: 880px;
     z-index: 0;
-    box-shadow: 10px 10px 0px $gold;
+    box-shadow: 15px 8px 0px $gold;
   }
 
 

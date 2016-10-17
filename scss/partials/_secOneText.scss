@@ -1,17 +1,20 @@
 #sectionOneText {
 
-  border: 1px solid black;
+  // border: 1px solid pink;
+  // max-width: 200px;
   margin-left: 8%;
   margin-right: 8%;
+  position: relative;
+  z-index: 1;
 
   .side-text {
-    border: 1px solid black;
+    float: left;
+    // border: 1px solid pink;
     width: 10%;
     min-width: 110px;
     padding-top: 5%;
     position: relative;
     color: white;
-    z-index: 1;
     line-height: 5px;
 
     .head {
