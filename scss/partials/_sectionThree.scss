@@ -1,9 +1,9 @@
 #sectionThree {
   border: 1px solid pink;
-  height: 500px;
+  height: 425px;
   .left-pic {
   float: left;
-  width: 40%;
+  width: 55%;
   border: 1px solid orange;
   .grey-box {
     width: 10%;
@@ -26,12 +26,21 @@
 
   .right-text {
     border: 1px solid pink;
-    width: 55%;
+    width: 40%;
     float: right;
   }
+
+  .hind-header {
+    color: $grey;
+    font-family: "Hind";
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px; }
 
   a {
     @include body-link;
   }
+
+
 
 }

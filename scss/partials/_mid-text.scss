@@ -3,17 +3,31 @@
   margin-top: 35%;
   height: 200px;
   border: solid 1px red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+    border: solid 1px red;
+    width: 40%;
+  }
 
   .gold-caps {
+    margin: 0px;
     font-family: "Montserrat";
     font-size: 11px;
     color: $gold;
   }
 
   .playfair-header {
+    margin: 0px;
     font-family: "Playfair Display";
     font-style: 400;
     font-size: 30px;
+  }
+
+  p {
+    margin-top: 5px;
   }
 
 

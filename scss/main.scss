@@ -6,7 +6,20 @@ body {
   max-width: 1300px;
   min-width: 365px;
 }
+
 .body-text {
   font-family: "Hind";
   font-size: 14px;
+  color: $grey;
+}
+
+.underline2 {
+  text-decoration: underline;
+}
+
+.playfair-italic {
+  font-family: "Playfair";
+  font-style: italic;
+  font-size: 18px;
+  color: $grey;
 }
