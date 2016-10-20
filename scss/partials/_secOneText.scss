@@ -7,6 +7,43 @@
   position: relative;
   z-index: 1;
 
+
+  .main-title {
+    position: relative;
+    left: 400px;
+  }
+
+  .subtitle {
+    position: relative;
+    top: 110px;
+    font-family: "Montserrat";
+    font-size: 10px;
+    letter-spacing: .5px;
+    font-style: bold;
+    color: white;
+    width: 200px;
+  }
+
+  .title {
+    font-family: "Playfair Display";
+    font-size: 55px;
+    letter-spacing: 1px;
+    width: 500px;
+    color: white;
+    line-height: 0px;
+    position: relative;
+    top: 75px;
+  }
+
+  .white-line {
+    background: white;
+    height: 2px;
+    width: 205px;
+    position: relative;
+    top: 96px;
+    left: 185px;
+  }
+
   .side-text {
     float: left;
     // border: 1px solid pink;

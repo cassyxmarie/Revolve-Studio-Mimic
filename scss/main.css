@@ -142,6 +142,34 @@ header {
   margin-right: 8%;
   position: relative;
   z-index: 1; }
+  #sectionOneText .main-title {
+    position: relative;
+    left: 400px; }
+  #sectionOneText .subtitle {
+    position: relative;
+    top: 110px;
+    font-family: "Montserrat";
+    font-size: 10px;
+    letter-spacing: .5px;
+    font-style: bold;
+    color: white;
+    width: 200px; }
+  #sectionOneText .title {
+    font-family: "Playfair Display";
+    font-size: 55px;
+    letter-spacing: 1px;
+    width: 500px;
+    color: white;
+    line-height: 0px;
+    position: relative;
+    top: 75px; }
+  #sectionOneText .white-line {
+    background: white;
+    height: 2px;
+    width: 205px;
+    position: relative;
+    top: 96px;
+    left: 185px; }
   #sectionOneText .side-text {
     float: left;
     width: 10%;
@@ -238,8 +266,7 @@ footer {
       background: white; }
 
 body {
-  max-width: 1080px;
-  min-width: 365px; }
+  width: 1080px; }
 
 .body-text {
   font-family: "Hind";
