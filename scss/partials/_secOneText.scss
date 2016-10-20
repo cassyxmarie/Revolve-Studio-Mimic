@@ -60,24 +60,55 @@
 
     .standard {
       font-family: "Hind";
-      font-size: 12px;
+      font-size: 10px;
     }
 
     .italic {
       font-family: "Hind";
-      font-size: 12px;
+      font-size: 10px;
       font-style: italic;
+      text-decoration: underline;
+      line-height: 10px;
     }
 
     .sideways {
       position: relative;
+      top: 180px;
+      left: -50px;
+      font-size: 9px;
+      font-family: "Montserrat";
+      font-weight: bold;
       padding-left: 0px;
       margin-left: 0px;
       transform: rotate(-90deg);
     }
 
+    .vertical-line {
+      height: 90px;
+      width: 2px;
+      background: $gold;
+      position: relative;
+      top: 255px;
+      left: 5px;
+    }
+
     .para-one, .para-two {
       margin-bottom: 4%;
+    }
+
+    .para-one {
+      position: relative;
+      top: 35px;
+    }
+
+    .para-two {
+      position: relative;
+      top: 60px;
+    }
+
+    .sun {
+      position: relative;
+      top: 80px;
     }
   }
 

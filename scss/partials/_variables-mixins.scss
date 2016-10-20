@@ -1,12 +1,13 @@
 $gold: #CAB586;
 $grey: #252A2D;
+$light-grey: #9FABB3;
 
 
 @import 'https://fonts.googleapis.com/css?family=Hind:300,600|Montserrat|Playfair+Display:400,400i,700';
 
 @mixin head-text {
   font-family: "Montserrat";
-  font-size: 12px;
+  font-size: 10px;
 }
 
 @mixin body-link {

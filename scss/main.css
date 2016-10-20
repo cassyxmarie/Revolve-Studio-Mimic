@@ -46,7 +46,7 @@ header {
   top: 80px; }
   #sectionOne .pic-beach {
     float: left;
-    width: 200px; }
+    width: 213px; }
   #sectionOne .pic-container {
     position: relative;
     z-index: -1;
@@ -59,7 +59,7 @@ header {
     right: 0px;
     float: right;
     width: 85%;
-    max-width: 880px;
+    max-width: 867px;
     z-index: 0;
     box-shadow: 15px 8px 0px #CAB586; }
 
@@ -82,7 +82,8 @@ header {
     line-height: 40px;
     font-weight: bold;
     float: left;
-    margin-right: 5px; }
+    margin-right: 5px;
+    color: black; }
   #sectionTwo a {
     font-family: "Playfair Display";
     font-style: italic;
@@ -180,25 +181,48 @@ header {
     line-height: 5px; }
     #sectionOneText .side-text .head {
       font-family: "Montserrat";
-      font-size: 12px; }
+      font-size: 10px; }
     #sectionOneText .side-text .standard {
       font-family: "Hind";
-      font-size: 12px; }
+      font-size: 10px; }
     #sectionOneText .side-text .italic {
       font-family: "Hind";
-      font-size: 12px;
-      font-style: italic; }
+      font-size: 10px;
+      font-style: italic;
+      text-decoration: underline;
+      line-height: 10px; }
     #sectionOneText .side-text .sideways {
       position: relative;
+      top: 180px;
+      left: -50px;
+      font-size: 9px;
+      font-family: "Montserrat";
+      font-weight: bold;
       padding-left: 0px;
       margin-left: 0px;
       transform: rotate(-90deg); }
+    #sectionOneText .side-text .vertical-line {
+      height: 90px;
+      width: 2px;
+      background: #CAB586;
+      position: relative;
+      top: 255px;
+      left: 5px; }
     #sectionOneText .side-text .para-one, #sectionOneText .side-text .para-two {
       margin-bottom: 4%; }
+    #sectionOneText .side-text .para-one {
+      position: relative;
+      top: 35px; }
+    #sectionOneText .side-text .para-two {
+      position: relative;
+      top: 60px; }
+    #sectionOneText .side-text .sun {
+      position: relative;
+      top: 80px; }
 
 #mid-text {
   text-align: center;
-  margin-top: 54%;
+  margin-top: 60%;
   height: 200px;
   display: flex;
   align-items: center;
@@ -206,17 +230,18 @@ header {
   padding-top: 36px;
   padding-bottom: 36px; }
   #mid-text .container {
-    width: 400px; }
+    width: 420px; }
   #mid-text .gold-caps {
     margin: 0px;
     font-family: "Montserrat";
     font-size: 11px;
     color: #CAB586; }
   #mid-text .playfair-header {
-    margin: 0px;
+    margin: 7px;
     font-family: "Playfair Display";
     font-style: 400;
-    font-size: 24px; }
+    font-size: 24px;
+    letter-spacing: .5px; }
   #mid-text p {
     margin-top: 5px;
     text-align: center; }
@@ -271,17 +296,19 @@ body {
 .body-text {
   font-family: "Hind";
   font-size: 12px;
-  color: #252A2D;
+  color: #9FABB3;
   text-align: justify; }
 
 .underline2 {
-  text-decoration: underline; }
+  text-decoration: underline;
+  color: #9FABB3;
+  margin-right: 15px; }
 
 .playfair-italic {
   font-family: "Playfair";
   font-style: italic;
   font-size: 15px;
-  color: #252A2D;
+  color: #9FABB3;
   text-align: justify; }
 
 .sun {

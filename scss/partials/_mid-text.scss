@@ -1,6 +1,6 @@
 #mid-text {
   text-align: center;
-  margin-top: 54%;
+  margin-top: 60%;
   height: 200px;
   // border: solid 1px red;
   display: flex;
@@ -11,7 +11,7 @@
 
   .container {
     // border: solid 1px red;
-    width: 400px;
+    width: 420px;
   }
 
   .gold-caps {
@@ -22,10 +22,11 @@
   }
 
   .playfair-header {
-    margin: 0px;
+    margin: 7px;
     font-family: "Playfair Display";
     font-style: 400;
     font-size: 24px;
+    letter-spacing: .5px;
   }
 
   p {
