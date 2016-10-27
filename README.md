@@ -1,6 +1,6 @@
 # _Revolve Studio Mimic_
 
-#### _In-Progress recreation of a design created by Revolve Studios._
+#### _In-Progress recreation of a design created by Revolve Studios. 10/2016_
 
 #### By _**Cassandra Culkins**_ 
 
