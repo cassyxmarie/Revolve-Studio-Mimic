@@ -1,6 +1,6 @@
 # _Revolve Studio Mimic_
 
-#### _In-Progress recreation of a design created by Revolve Studios. 10/2016_
+#### _Recreation of a design created by Revolve Studios. 10/2016_
 
 #### By _**Cassandra Culkins**_ 
 
@@ -8,7 +8,7 @@
 
 ## Description
 
-_Revolve Studios is a creative agency in Portland, Oregon, and they create design work that I greatly admire. In order to improve my front-end development skills, I decided to code my own version using only the image that they provide on their dribbble account as a reference which you can find here: https://dribbble.com/shots/2716674-Landing-Page._  
+_Revolve Studios is a creative agency in Portland, Oregon, who creates design work that I greatly admire. In order to improve my front-end development skills, I decided to code my own version using only the image that they provide on their dribbble account as a reference (which you can find here: https://dribbble.com/shots/2716674-Landing-Page)._  
 
 ## Images used
 * https://stocksnap.io/photo/YYQ3XBYDAP 
